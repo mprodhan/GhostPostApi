@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ghostpost"
+version = "0.1.0"
+description = "Creating api for the backend"
+authors = ["Mustafa Prodhan <mustafa.prodhan.317@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+djangorestframework = "^3.11.0"
+django-cors-headers = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+django = "^3.0.7"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
